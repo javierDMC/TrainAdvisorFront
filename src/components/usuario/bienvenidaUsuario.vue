@@ -1,3 +1,5 @@
 <script setup lang="ts"></script>
 
-<template></template>
+<template>
+     <h2>Bienvenida usuario</h2>
+</template>

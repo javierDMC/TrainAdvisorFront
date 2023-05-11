@@ -1,3 +1,6 @@
 <script setup lang="ts"></script>
 
-<template></template>
+<template>
+     <h2>Valoracion</h2>
+
+</template>
