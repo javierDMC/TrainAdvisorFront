@@ -4,11 +4,11 @@
 <div class="flex justify-center items-center py-16 text-center">
     <div class="max-w-sm bg-white border border-black rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="rounded-t-lg" src="./../../public/incio.jpg" alt="imagen trenes portada" />
+        <img class="rounded-t-lg" src="./../assets/travel-holiday-vacation-301_89079.svg" alt="imagen trenes portada" />
     </a>
     <div class="p-5 m-4">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BIENEVENIDO A</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">BIENVENIDO A</h5>
             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">TRAIN ADVISOR</h2>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">La web para valorar tus viajes en tren</p>
