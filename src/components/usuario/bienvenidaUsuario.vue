@@ -6,38 +6,42 @@
           <div class="grid px-4 py-5 mx-auto text-gray-900  md:px-6">
                <ul>
                     <li>
+                         <RouterLink to="/valoracion/buscar">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-lime-500 text-fuchsia-800 text-center hover:bg-fuchsia-800 hover:text-lime-500">
                               <div class="font-semibold">Todas las valoraciones</div>
                               <span class="text-sm text-white">Navega por todas la valoraciones de los
                                    usuarios</span>
-                         </a>
+                         </a></RouterLink>
                     </li>
                     <li>
+                         <RouterLink to="/valoracion/usuario">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-lime-500 text-fuchsia-800 text-center hover:bg-fuchsia-800 hover:text-lime-500">
                               <div class="font-semibold">Tus valoraciones</div>
                               <span class="text-sm text-white">Navega por tus propias
                                    valoraciones</span>
-                         </a>
+                         </a></RouterLink>
                     </li>
                     <li>
+                         <RouterLink to="/usuario/editar">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-lime-500 text-fuchsia-800 text-center hover:bg-fuchsia-800 hover:text-lime-500">
                               <div class="font-semibold">Editar perfil</div>
                               <span class="text-sm text-white">Edita los datos de tu cuenta</span>
-                         </a>
+                         </a></RouterLink>
                     </li>
                </ul>
           </div>
           <div>
                <ul>
                     <li>
+                         <RouterLink to="/valoracion/hacer">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-fuchsia-800 text-lime-500 text-center hover:bg-lime-500 hover:text-fuchsia-800">
                               <div class="font-semibold">HACER VALORACION</div>
                               <span class="text-sm text-white">¡Da tu opinión sobre tu viaje!</span>
-                         </a>
+                         </a></RouterLink>
                     </li>
                     <li>
                          <div class="flex justify-center">
