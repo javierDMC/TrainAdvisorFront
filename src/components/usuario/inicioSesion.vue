@@ -2,8 +2,7 @@
 
 <template>
     <div class="flex justify-center items-center py-16">
-        <div
-            class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
+        <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8">
             <form class="space-y-6" action="#">
                 <h5 class="text-xl font-medium text-gray-900 dark:text-white">Accede en nuestra web</h5>
                 <div>
@@ -26,18 +25,19 @@
                                 class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
                                 required>
                         </div>
-                        <label for="remember"
-                            class="ml-2 text-sm font-medium text-gray-900">Recuérdame</label>
+                        <label for="remember" class="ml-2 text-sm font-medium text-gray-900">Recuérdame</label>
                     </div>
                     <a href="#" class="ml-auto text-sm text-blue-700 hover:underline">¿Has olvidado tu
                         password?</a>
-            </div>
-            <button type="submit"
-                class="w-full text-white bg-fuchsia-800 hover:bg-lime-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Entra
-                a tu cuenta</button>
-            <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                ¿No estás registrado? <router-link to="/registro"><a href="#" class="text-blue-700 hover:underline">Crear cuenta</a></router-link>
-            </div>
-        </form>
+                </div>
+                <router-link to="/usuario/inicio"><button type="submit"
+                        class="mt-4 w-full text-white bg-fuchsia-800 hover:bg-lime-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Entra
+                        a tu cuenta</button></router-link>
+                <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                    ¿No estás registrado? <router-link to="/registro"><a href="#"
+                            class="text-blue-700 hover:underline">Crear cuenta</a></router-link>
+                </div>
+            </form>
+        </div>
     </div>
-</div></template>
+</template>
