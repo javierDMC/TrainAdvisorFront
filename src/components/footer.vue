@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-<footer class="bg-fuchsia-800 dark:bg-gray-900 mx-auto w-full">
-    <div class="mx-auto w-full w-full p-4 py-6 lg:py-8">
+<footer class="bg-fuchsia-800 mx-auto w-full">
+    <div class="mx-auto w-full w-full p-4 py-10">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">
@@ -12,7 +12,7 @@
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-white underline uppercase dark:text-white">Recursos</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-white underline uppercase">Recursos</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="https://marca.com/" class="hover:underline">Train Advisor</a>
