@@ -6,7 +6,7 @@
           <div class="grid px-4 py-5 mx-auto text-gray-900  md:px-6">
                <ul>
                     <li>
-                         <RouterLink to="/valoracion/buscar">
+                         <RouterLink to="/valoracion/buscar/todas">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-lime-500 text-fuchsia-800 text-center hover:bg-fuchsia-800 hover:text-lime-500">
                               <div class="font-semibold">Todas las valoraciones</div>
@@ -15,7 +15,7 @@
                          </a></RouterLink>
                     </li>
                     <li>
-                         <RouterLink to="/valoracion/usuario">
+                         <RouterLink to="/valoracion/buscar/propias">
                          <a href="#"
                               class="block p-3 m-2 rounded-lg bg-lime-500 text-fuchsia-800 text-center hover:bg-fuchsia-800 hover:text-lime-500">
                               <div class="font-semibold">Tus valoraciones</div>
