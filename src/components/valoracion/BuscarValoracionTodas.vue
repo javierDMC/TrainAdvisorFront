@@ -14,6 +14,10 @@
                          <option>Valencia-Joaquin Sorolla</option>
                          <option>Madrid-Chamartin</option>
                          <option>Barcelona-Sants</option>
+                         <option>Castelló de la Plana</option>
+                         <Option>Gandia</Option>
+                         <Option>Sevilla-Santa Justa</Option>
+                         <Option>Gijón-Xixón</Option>
                     </select>
                </div>
                <div class="m-2">
@@ -24,6 +28,10 @@
                          <option>Valencia-Joaquin Sorolla</option>
                          <option>Madrid-Chamartin</option>
                          <option>Barcelona-Sants</option>
+                         <option>Castelló de la Plana</option>
+                         <Option>Gandia</Option>
+                         <Option>Sevilla-Santa Justa</Option>
+                         <Option>Gijón-Xixón</Option>
                     </select>
                </div>
                <div class="m-2">
@@ -33,6 +41,7 @@
                          <option>Renfe</option>
                          <option>Ouigo</option>
                          <option>Iryo</option>
+                         <option>Feve</option>
                     </select>
                </div>
                <div class="m-2">
@@ -75,5 +84,10 @@
                               Buscar valoración
                          </button></RouterLink>
                </div>
+          </div>
+          <div class="flex justify-center">
+                    <RouterLink to="/usuario/inicio"><button type="submit"
+                              class="mt-8 text-white bg-fuchsia-800 hover:bg-lime-500 hover:text-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Volver</button>
+                    </RouterLink>
           </div>
 </div></template>

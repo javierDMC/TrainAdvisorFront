@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-<footer class="bg-fuchsia-800 mx-auto w-full">
-    <div class="mx-auto w-full w-full p-4 py-10">
+<footer class="bg-fuchsia-800 w-full ">
+    <div class="mx-auto w-full w-full p-4 py-10 fixed bottom-0 bg-fuchsia-800">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="#" class="flex items-center">

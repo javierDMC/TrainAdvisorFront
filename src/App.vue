@@ -9,7 +9,7 @@ import Footer from './components/Footer.vue';
 
     <router-view></router-view>
   
-    <Footer class="absolute bottom-0"></Footer>
+    <Footer></Footer>
 
 </template>
 
