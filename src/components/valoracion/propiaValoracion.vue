@@ -7,7 +7,7 @@
                <div class="flex items-center mb-4 space-x-4">
                     <img class="w-10 h-10 rounded-full" src="./../../assets/heart_train_icon_217180.svg" alt="">
                     <div class="space-y-1 font-medium">
-                         <p>Pepe Martínez</p>
+                         <p>Jose Martínez</p>
                          <p class="block text-sm text-gray-500">23 valoraciones (22 votos útiles)</p>
                     </div>
                </div>
@@ -62,9 +62,9 @@
                <aside>
                     <p class="mt-1 text-xs text-gray-500 ">A 19 usuarios les ha resultado útil</p>
                     <div class="flex items-center mt-3 mb-3 space-x-3 divide-x divide-gray-200">
-                         <a href="#"
-                              class="text-green-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Útil</a>
-                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Reportar valoración</a>
+                         <RouterLink to="/valoracion/editar"><a href="#"
+                              class="text-yellow-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Editar valoración</a></RouterLink>
+                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Borrar valoración</a>
                     </div>
                </aside>
           </article>
@@ -130,8 +130,8 @@
                     <p class="mt-1 text-xs text-gray-500 ">A 19 usuarios les ha resultado útil</p>
                     <div class="flex items-center mt-3 mb-3 space-x-3 divide-x divide-gray-200">
                          <a href="#"
-                              class="text-green-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Útil</a>
-                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Reportar valoración</a>
+                              class="text-yellow-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Editar valoración</a>
+                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Borrar valoración</a>
                     </div>
                </aside>
           </article>
@@ -197,8 +197,8 @@
                     <p class="mt-1 text-xs text-gray-500 ">A 19 usuarios les ha resultado útil</p>
                     <div class="flex items-center mt-3 mb-3 space-x-3 divide-x divide-gray-200">
                          <a href="#"
-                              class="text-green-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Útil</a>
-                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Reportar valoración</a>
+                              class="text-yellow-600 bg-white border border-gray-300 focus:outline-none hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-xs px-2 py-1.5">Editar valoración</a>
+                         <a href="#" class="pl-4 text-sm font-medium text-red-500 hover:underline">Borrar valoración</a>
                     </div>
                </aside>
           </article>

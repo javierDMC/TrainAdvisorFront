@@ -12,6 +12,7 @@ import VerValoracionVue from './components/valoracion/VerValoracion.vue'
 import HacerValoracionVue from './components/valoracion/HacerValoracion.vue'
 import BuscarValoracionPropiasVue from './components/valoracion/BuscarValoracionPropias.vue'
 import BuscarValoracionTodasVue from './components/valoracion/BuscarValoracionTodas.vue'
+import EditarValoracionVue from './components/valoracion/EditarValoracion.vue'
 
 
 
@@ -24,6 +25,7 @@ const routes = [
     { path: '/valoracion/buscar/todas', component: BuscarValoracionTodasVue },
     { path: '/valoracion/buscar/propias', component: BuscarValoracionPropiasVue },
     { path: '/valoracion/usuario', component: PropiaValoracionVue },
+    { path: '/valoracion/editar', component: EditarValoracionVue },
     { path: '/valoracion/ver', component: VerValoracionVue },
     { path: '/valoracion/hacer', component: HacerValoracionVue }
   ]
