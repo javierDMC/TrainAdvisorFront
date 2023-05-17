@@ -13,6 +13,7 @@ import HacerValoracionVue from './components/valoracion/HacerValoracion.vue'
 import BuscarValoracionPropiasVue from './components/valoracion/BuscarValoracionPropias.vue'
 import BuscarValoracionTodasVue from './components/valoracion/BuscarValoracionTodas.vue'
 import EditarValoracionVue from './components/valoracion/EditarValoracion.vue'
+import {createPinia} from 'pinia'
 
 
 
@@ -37,7 +38,10 @@ const router = createRouter({
 
 const app = createApp(App);
 
+const pinia = createPinia()
+
 app.use(router)
+app.use(pinia)
 
 router.isReady().then(() => {
   app.mount('#app');
