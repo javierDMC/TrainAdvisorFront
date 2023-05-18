@@ -16,13 +16,15 @@ export type Valoracion = {
     usuario?: string,
 }
 
-// You can name the return value of `defineStore()` anything you want,
-// but it's best to use the name of the store and surround it with `use`
-// and `Store` (e.g. `useUserStore`, `useCartStore`, `useProductStore`)
-// the first argument is a unique id of the store across your application
+export type loginInfo = {
+    email: string, 
+    password: string,
+}
+
 export const trainAdvisorStore = defineStore('train', () => {
     //state
     const valoraciones: Ref<Valoracion[]> = ref([]);
+    const isLogged: Ref<Boolean> = ref(false);
     //getters
 
     //actions
@@ -33,6 +35,13 @@ export const trainAdvisorStore = defineStore('train', () => {
       })
       .catch(()=>alert("Error: valoraciones not found"));
     }
+    async function login(logInfo: loginInfo) {
+        axios.post('http://localhost:8080/login', logInfo)
+        .then((response)=>{
+            console.log('response', response)
+            isLogged.value = response.data;
+        })
+    }
   
-    return { getValoraciones, valoraciones }
+    return { getValoraciones, valoraciones, login, isLogged }
   });

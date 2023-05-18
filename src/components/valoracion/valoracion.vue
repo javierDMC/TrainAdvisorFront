@@ -12,6 +12,7 @@ onBeforeMount(()=>{
 const {
   valoraciones
 } = storeToRefs(store);
+
 </script>
 
 <template>
